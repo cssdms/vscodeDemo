@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "HelloWorld",
+            "request": "launch",
+            "mainClass": "HelloWorld",
+            "projectName": "vscodeTestDemo_6e8d269b"
+        },
+        {
             "name": ".NET Core Launch (console)",
             "type": "coreclr",
             "request": "launch",
@@ -14,6 +21,5 @@
             "stopAtEntry": false,
             "console": "internalConsole"
         }
-
     ]
 }
