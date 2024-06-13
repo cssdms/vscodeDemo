@@ -4,22 +4,46 @@
     // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        
+        {
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/netcore/Demo/bin/Debug/net6.0/Demo.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        },
+        {
+            "name": ".NET Framework Launch (console)",
+            "type": "clr",
+            "request": "launch",
+            "preLaunchTask": "buildNF",
+            "program": "${workspaceFolder}/netcore/NetConsole/bin/Debug/NetConsole.exe",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "console": "internalConsole",
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "name": ".NET Framework Launch",
+            "type": "clr",
+            "request": "launch",
+            "preLaunchTask": "buildNF",
+            "program": "NetConsole.exe",
+            "args": [],
+            "cwd": "${workspaceFolder}/netcore/NetConsole/bin/Debug/",
+            "stopAtEntry": false
+        },
         {
             "type": "java",
             "name": "HelloWorld",
             "request": "launch",
             "mainClass": "HelloWorld",
             "projectName": "vscodeTestDemo_6e8d269b"
-        },
-        {
-            "name": ".NET Core Launch (console)",
-            "type": "coreclr",
-            "request": "launch",
-            "program": "${workspaceFolder}/netcore/Demo/bin/Debug/net6.0/Demo.dll",
-            "args": [],
-            "cwd": "${workspaceFolder}",
-            "stopAtEntry": false,
-            "console": "internalConsole"
         }
     ]
 }

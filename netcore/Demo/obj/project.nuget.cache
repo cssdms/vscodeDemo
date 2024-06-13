@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "twQpmxNRdY/Oys8LIDb+LlDcbiVuVJ+EG9CbSf/FsMRpNEd+FjSiR4cyxQA2Ia46gRQF3wMpFcdWlWROTRoQYQ==",
+  "dgSpecHash": "dDfpHx70RfUI6bNT1uzs4uCsqBgfyCDxGlkJnYkBm2mGl6FXaa/ChjJ52TFhOzO2hKZkT/AnyV9F7si8mh3eJg==",
   "success": true,
-  "projectFilePath": "g:\\vscodeTestDemo\\netcore\\Demo\\Demo.csproj",
+  "projectFilePath": "G:\\vscodeTestDemo\\netcore\\Demo\\Demo.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

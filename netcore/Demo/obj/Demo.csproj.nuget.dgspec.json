@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "g:\\vscodeTestDemo\\netcore\\Demo\\Demo.csproj": {}
+    "G:\\vscodeTestDemo\\netcore\\Demo\\Demo.csproj": {}
   },
   "projects": {
-    "g:\\vscodeTestDemo\\netcore\\Demo\\Demo.csproj": {
+    "G:\\vscodeTestDemo\\netcore\\Demo\\Demo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "g:\\vscodeTestDemo\\netcore\\Demo\\Demo.csproj",
+        "projectUniqueName": "G:\\vscodeTestDemo\\netcore\\Demo\\Demo.csproj",
         "projectName": "Demo",
-        "projectPath": "g:\\vscodeTestDemo\\netcore\\Demo\\Demo.csproj",
+        "projectPath": "G:\\vscodeTestDemo\\netcore\\Demo\\Demo.csproj",
         "packagesPath": "D:\\Program Files (x86)\\Microsoft SDKs\\nuget\\packages\\",
-        "outputPath": "g:\\vscodeTestDemo\\netcore\\Demo\\obj\\",
+        "outputPath": "G:\\vscodeTestDemo\\netcore\\Demo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
