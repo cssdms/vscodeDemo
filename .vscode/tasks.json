@@ -20,12 +20,28 @@
             "problemMatcher": "$msCompile"
         },
         {
-            "label": "buildNF",
-            //"command": "D:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe",
+            "label": "buildnet",
             "command":"dotnet",
             "type": "shell",
             "args": [
-                "build",
+                "build"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/netcore/NetConsole"
+            },
+            "group": "build",
+            "presentation": {
+                "reveal": "silent"
+            },
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "buildNF",
+            "command": "D:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe",
+            //"command":"C:/Windows/Microsoft.NET/Framework64/v4.0.30319/MSBuild.exe",
+            //"command":"dotnet",
+            "type": "shell",
+            "args": [
                 "NetConsole.csproj"
             ],
             "options": {

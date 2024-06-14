@@ -1,8 +1,8 @@
 G:\vscodeTestDemo\netcore\NetConsole\bin\Debug\NetConsole.exe.config
 G:\vscodeTestDemo\netcore\NetConsole\bin\Debug\NetConsole.exe
 G:\vscodeTestDemo\netcore\NetConsole\bin\Debug\NetConsole.pdb
-G:\vscodeTestDemo\netcore\NetConsole\obj\Debug\NetConsole.csproj.AssemblyReference.cache
-G:\vscodeTestDemo\netcore\NetConsole\obj\Debug\NetConsole.csproj.CoreCompileInputs.cache
 G:\vscodeTestDemo\netcore\NetConsole\obj\Debug\NetConsole.exe
 G:\vscodeTestDemo\netcore\NetConsole\obj\Debug\NetConsole.pdb
-g:\vscodeTestDemo\netcore\NetConsole\obj\Debug\NetConsole.csproj.SuggestedBindingRedirects.cache
+G:\vscodeTestDemo\netcore\NetConsole\obj\Debug\NetConsole.csproj.AssemblyReference.cache
+G:\vscodeTestDemo\netcore\NetConsole\obj\Debug\NetConsole.csproj.CoreCompileInputs.cache
+G:\vscodeTestDemo\netcore\NetConsole\obj\Debug\NetConsole.csproj.SuggestedBindingRedirects.cache
