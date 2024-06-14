@@ -11,7 +11,7 @@ class Program
 
         if (string.IsNullOrEmpty(""))
         {
-
+            System.Console.WriteLine("this is null");
         }
 
         Console.ReadKey();
