@@ -21,6 +21,7 @@
         },
         {
             "label": "buildnet",
+            //能够调试，必须设置x64，设置DebugType属性是：portable
             "command":"dotnet",
             "type": "shell",
             "args": [
@@ -37,9 +38,10 @@
         },
         {
             "label": "buildNF",
+            //visual studio 2019自带的编译器MSBuild,能够调试，必须设置x64，设置DebugType属性是：portable
             "command": "D:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe",
-            //"command":"C:/Windows/Microsoft.NET/Framework64/v4.0.30319/MSBuild.exe",
-            //"command":"dotnet",
+            //使用此编译器，不能设置<DebugType>portable</DebugType>导致无法调试问题
+            //"command":"C:/Windows/Microsoft.NET/Framework64/v4.0.30319/MSBuild.exe", 
             "type": "shell",
             "args": [
                 "NetConsole.csproj"

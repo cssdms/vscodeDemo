@@ -37,7 +37,7 @@
             "program": "bin/Debug/NetConsole.exe",
             "args": [],
             "cwd": "${workspaceFolder}/netcore/NetConsole",
-            "console": "externalTerminal",
+            "console": "internalConsole",
         },
         {
             "type": "java",
